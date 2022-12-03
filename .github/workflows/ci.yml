@@ -42,7 +42,7 @@ jobs:
           which migrate
 
       - name: Run migrations
-        run: grep ^migrateup Makefile
+        run: grep ^migrateup ../Makefile
 
       - name: Test
         run: make test
