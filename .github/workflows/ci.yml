@@ -44,5 +44,5 @@ jobs:
 #      - name: Run migrations
 #        run: migrate -path db/migration -database "postgresql://root:secret@localhost:5433/simple_bank?sslmode=disable" -verbose up
 
-      - name: Test
-        run: make test
+#      - name: Test
+#        run: make test
