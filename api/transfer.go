@@ -3,9 +3,9 @@ package api
 import (
 	"database/sql"
 	"fmt"
-	db "github.com/SeongUgKim/Simplebank/db/sqlc"
 	"net/http"
 
+	db "github.com/SeongUgKim/Simplebank/db/sqlc"
 	"github.com/gin-gonic/gin"
 )
 
